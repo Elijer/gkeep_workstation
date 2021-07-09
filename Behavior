@@ -1,0 +1,7 @@
+# Gkeep Behavior
+
+### Adding and removing collaborators
+If all notes have `collaborator.remove("collaborator@example.email")` applied, then any notes that were shared with that email are removed. However, notes shared FROM that email are not removed. This may be an indication that, if the original account is deleted, those shared notes will also be deleted.
+
+### Behavior or Archived Notes
+`gnotes = keep.all()` includes archived notes as well.
