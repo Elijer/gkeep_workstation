@@ -2,9 +2,9 @@
 
 ## Getting keep.login() method to work
 So what worked for me on my personal email address is this:
-1. Make sure multi-factor authentication is on for google [here](https://myaccount.google.com/)
+1. Make sure multi-factor authentication is on for google [ here](https://myaccount.google.com/)
     - Not sure if it's necessary, but I also ticked a box that said "allow less secure apps" or something
-2. Create an app password for the device you are using[here](https://myaccount.google.com)
+2. Create an app password for the device you are using [here](https://myaccount.google.com)
 3. Mess around with every python version you can -- for me, the 3.9.6 interpreter runngin Python 2.7.18 worked for me
 4. Try downgrading the 'requests' package, whatever that is with `pip install requests==2.23.0`, a tip I found [in this thread.](https://github.com/simon-weber/gpsoauth/issues/24)
 
